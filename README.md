@@ -97,7 +97,7 @@ The chatbot follows this conversation flow:
 
 After successful registration, the information is saved in:
 
-`registration_data.json`
+
 
 ---
 
