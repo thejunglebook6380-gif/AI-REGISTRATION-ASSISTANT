@@ -1,0 +1,74 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good evening"
+      ],
+      "responses": [
+        "Hello! Welcome to the AI Registration Assistant. How can I help you today?"
+      ]
+    },
+    {
+      "tag": "register",
+      "patterns": [
+        "register",
+        "apply",
+        "sign up",
+        "join internship"
+      ],
+      "responses": [
+        "Great! Let's begin your registration. Please enter your full name."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help",
+        "support",
+        "guide",
+        "assist"
+      ],
+      "responses": [
+        "I can help you register, answer internship questions, and guide you through the process."
+      ]
+    },
+    {
+      "tag": "internship",
+      "patterns": [
+        "internship",
+        "duration",
+        "certificate",
+        "eligibility"
+      ],
+      "responses": [
+        "This internship is online and provides a certificate upon successful completion."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you"
+      ],
+      "responses": [
+        "You're welcome!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you"
+      ],
+      "responses": [
+        "Goodbye! Have a wonderful day."
+      ]
+    }
+  ]
+}
